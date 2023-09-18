@@ -1,6 +1,6 @@
-sudo docker run --name=adarsh_base --gpus all -d --rm \
+sudo docker run --name=adarsh_pytoch --gpus all -d --rm \
   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp \
   --cgroupns=host --cap-add SYS_BOOT --cap-add SYS_ADMIN \
   -v /sys/fs/cgroup:/sys/fs/cgroup \
   -p 5901:5901 -p 6901:6901 \
-  adarsh321/adarsh:01
+  adarsh321/adarsh:base_pytorch
