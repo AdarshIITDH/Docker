@@ -5,6 +5,10 @@
 
 #### Container actions
 
+* Build Docker Image
+
+      #docker file coming soon
+
 * Pull the Docker Image
   
       sudo docker pull adarsh321/adarsh:base_pytorch
