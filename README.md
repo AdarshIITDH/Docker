@@ -14,7 +14,8 @@
       sudo docker pull adarsh321/adarsh:base_pytorch
 * Start container:
 
-      sudo bash <(curl -Ls https://raw.githubusercontent.com/AdarshIITDH/Docker/main/base.sh)
+      sudo bash <(curl -Ls https://raw.githubusercontent.com/AdarshIITDH/Docker_GUI/main/base.sh)
+      
 
 #### Connecting to instance
 
